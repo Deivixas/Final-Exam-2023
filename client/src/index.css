@@ -13,7 +13,11 @@ margin-right: 14rem;
 input {
     padding: 10px;
     margin: 5px;
+    display: block;
+
 }
+
+
 
 table {
     border-collapse: collapse;
@@ -42,11 +46,16 @@ h1 {
     border-top: 1px solid black;
     padding: 10px;
     background-color: rgb(26, 20, 14);
+    border-radius: 2rem;
 }
 
 button{
     font-size: 20px;
     margin-left: 3rem;
+    border-radius: 10px;
+    display: block;
+    
+
 }
 
     h2 {
