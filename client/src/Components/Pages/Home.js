@@ -34,6 +34,10 @@ function handleInput(e){
 
   async function handleSubmit(e){
     e.preventDefault();
+    if (Object.values(form).some(value => value === '')) {
+      window.alert('Please fill in all fields');
+      return;
+    }
     const res= await fetch("http://localhost:4000/registration", {
       method: 'POST',
       body: JSON.stringify(form),
